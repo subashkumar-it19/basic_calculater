@@ -1,0 +1,50 @@
+.inputbox {
+    background-color:#eee;
+    padding: 50px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 50px;
+    text-align: right;
+    font-weight: bold;
+    background-color:transparent;
+    border: none;
+    border-bottom: 2px solid#ccc;
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    float:right;
+}
+
+.btn {
+    width: 25%;
+    padding: 43px;
+    font-size: 40px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.orgcolor {
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+}
+
+.grncolor {
+    background-color: forestgreen;
+    color: white;
+    border-color: forestgreen;
+}
+
+.darkcolor {
+    background-color: #ccc;
+    border-color: #aaa;
+}
+
+input:focus{outline: none !important}
+

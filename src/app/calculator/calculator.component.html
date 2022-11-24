@@ -1,0 +1,23 @@
+
+    <div [className]="'inputbox'">
+        <span>{{secondNum}}</span> <span>{{sign}}</span>  <span>{{firstNum}}</span>
+        <br>
+        <input type="text" [className]="'input'" [formControl]="data">
+    </div>  
+    <input type="button" [disabled]="block" [className]="'btn'" value="1" (click)="one()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="2" (click)="two()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="3" (click)="three()">
+    <input type="button" [disabled]="block" [className]="'btn darkcolor'" value="+" (click)="add()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="4" (click)="four()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="5" (click)="five()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="6" (click)="six()">
+    <input type="button" [disabled]="block" [className]="'btn darkcolor'" value="-" (click)="sub()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="7" (click)="seven()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="8" (click)="eight()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="9" (click)="nine()">
+    <input type="button" [disabled]="block" [className]="'btn darkcolor'" value="/" (click)="div()">
+    <input type="button" [disabled]="block" [className]="'btn'" value="0" (click)="zero()">
+    <input type="button" [disabled]="block" [className]="'btn grncolor'" value="=" (click)="equal()">
+    <input type="button" [className]="'btn orgcolor'" value="Clear" (click)="clear()">
+    <input type="button" [disabled]="block" [className]="'btn darkcolor'" value="*" (click)="mul()">
+
